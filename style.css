@@ -1,0 +1,63 @@
+html {
+    background-color: #D4F0F0;
+    
+}
+
+body {
+    text-align: center;
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+    font-size: 150%;
+  
+}
+
+.header {
+    text-align: center;
+    background-color: #55CBCD;
+    padding-left: 10;
+    padding-right: 10;
+    padding-top: 3;
+    padding-bottom: 3;
+    color: azure;
+}
+
+.gameArea {
+    list-style-type: square;
+    background-color: azure;
+    margin-left: 431.578;
+    margin-right: 431.578;
+    padding-top: 10;
+    padding-bottom: 20;
+    border-radius: 15%;
+}
+
+br {
+    margin-bottom: 100;
+    margin-top: 100;
+}
+
+.number {
+    
+    border-radius: 90%;
+    background-color: azure;
+    margin-left: 631.578;
+    margin-right: 631.578;
+    padding-top: 20;
+    padding-bottom: 20;
+    height: 5%;
+}
+
+.paragraph {
+    
+}
+
+.button {
+    background-color: #55CBCD;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.textarea {
+    margin-bottom: 20rem;
+    height: 10cm;
+}
