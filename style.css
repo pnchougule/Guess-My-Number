@@ -1,12 +1,12 @@
 html {
-    background-color: #D4F0F0;
+    background-color: azure;
     
 }
 
 body {
     text-align: center;
     margin: 0px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Indie Flower', cursive;
     font-size: 150%;
   
 }
@@ -23,12 +23,13 @@ body {
 
 .gameArea {
     list-style-type: square;
-    background-color: azure;
+    background-color: #D4F0F0;
     margin-left: 431.578;
     margin-right: 431.578;
     padding-top: 10;
     padding-bottom: 20;
-    border-radius: 15%;
+    border-radius: 5%;
+    
 }
 
 br {
@@ -39,7 +40,7 @@ br {
 .number {
     
     border-radius: 90%;
-    background-color: azure;
+    background-color: #D4F0F0;
     margin-left: 631.578;
     margin-right: 631.578;
     padding-top: 20;
@@ -47,17 +48,35 @@ br {
     height: 5%;
 }
 
-.paragraph {
-    
-}
-
-.button {
+.btn {
     background-color: #55CBCD;
     padding-top: 2%;
     padding-bottom: 2%;
+    border-radius: 7px;
 }
 
 .textarea {
     margin-bottom: 20rem;
     height: 10cm;
 }
+
+.guess {
+    border-radius: 7px;
+    height: 50px;
+    width: 110px;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+}
+
+#guessing-game-section {
+    position:fixed;
+    top:110px;
+    bottom:0;
+    left:0;
+    right:0;
+
+}
+  
